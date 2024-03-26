@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      * {
+        border: thin red solid;
+      }
+      body {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: #55423d;
+      }
+      .items {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 640px;
+      }
+      .name{
+        color: #fffffe;
+        display: flex;
+        justify-content: center;
+        font-size: 24px;
+      }
+      .social-icons {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+      }
+      .social-icons a {
+        color: #fffffe;
+        text-decoration: none;
+        justify-content: center;
+      }
+
+      .link {
+        background-color: #e78fb3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .link a {
+        color: #140d0b;
+        text-decoration: none;
+        text-align: center;
+      }
+      .banner {
+        display: flex;
+        justify-content: center;
+      }
+      .banner-image {
+        width: 128px;
+        height: 128px;
+        object-fit: cover;
+        border-radius: 128px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="items">
+      <div class="banner">
+        <img src="https://media.licdn.com/dms/image/C4D03AQFlwmkqEQn2qw/profile-displayphoto-shrink_800_800/0/1622120590188?e=1717027200&v=beta&t=D2UdAdG6l7wH9sLDgU2NrUV1q1BU6uUXd4WYlIGOzeg" alt="Rob Lusk headshot" class="banner-image">
+      </div>
+
+      <div class="name">Rob Lusk</div>
+
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/robert-lusk/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/roblusk" target="_blank">GitHub</a>
+      </div>
+
+      <div class="link">
+        <a href="wsj.com" target="_blank">WSJ</a>
+        <a href="nytimes.com" target="_blank">NYT</a>
+        <a href="washingtonpost.com" target="_blank">WaPo</a>
+      </div>
+    </div>
+  </body>
+</html>
